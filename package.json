@@ -1,0 +1,29 @@
+{
+  "name": "modern-webapp",
+  "version": "0.0.1",
+  "description": "A configuration boilerplate for a modern frontend SPA workflow.",
+  "scripts": {},
+  "keywords": [
+    "react",
+    "router",
+    "redux",
+    "postcss",
+    "precss",
+    "css modules",
+    "webpack",
+    "babel",
+    "eslint",
+    "stylelint",
+    "react toolbox",
+    "material"
+  ],
+  "author": {
+    "name": "Robert Matych",
+    "email": "robertsmatych@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmatych/Modern-Webapp"
+  },
+  "license": "MIT",
+}
