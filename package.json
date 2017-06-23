@@ -2,7 +2,10 @@
   "name": "modern-webapp",
   "version": "0.0.1",
   "description": "A configuration boilerplate for a modern frontend SPA workflow.",
-  "scripts": {},
+  "scripts": {
+    "build:dev": "webpack --env=dev --progress --profile --colors",
+    "build:dist": "webpack --env=prod --progress --profile --colors"
+  },
   "keywords": [
     "react",
     "router",
@@ -28,6 +31,7 @@
   "license": "MIT",
   "devDependencies": {
     "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.0"
+    "webpack-dev-server": "^2.5.0",
+    "webpack-merge": "^4.1.0"
   }
 }
