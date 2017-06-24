@@ -1,31 +1,40 @@
 const path = require('path');
 
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+
 const srcDir = path.resolve(__dirname, './src/');
 const buildDir = path.resolve(__dirname, './build/');
 
 module.exports = {
-  context: srcDir,
+  'context': srcDir,
 
-  entry: {
-    app: './app.js'
+  'entry': {
+    'index': './index.js',
   },
 
-  output: {
-    path: buildDir,
-    filename: '[name].bundle.js',
+  'output': {
+    'path': buildDir,
+    'filename': '[name].bundle.js',
   },
 
-  resolve: {
-    extensions: ['.js', '.jsx', '.json'],
+  'resolve': {
+    'extensions': ['.js', '.jsx', '.json'],
   },
 
-  module: {
-    rules: [
-
-    ]
+  'module': {
+    'rules': [
+      {
+        'enforce': 'pre',
+        'test': /.jsx?$/,
+        'exclude': /node_modules/,
+        'loader': 'eslint-loader',
+      },
+    ],
   },
 
-  plugins: [
-
-  ]
-}
+  'plugins': [
+    new HTMLWebpackPlugin({
+      'template': './index.html',
+    }),
+  ],
+};
