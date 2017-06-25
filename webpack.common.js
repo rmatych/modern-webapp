@@ -27,7 +27,28 @@ module.exports = {
         'enforce': 'pre',
         'test': /.jsx?$/,
         'exclude': /node_modules/,
-        'loader': 'eslint-loader',
+        'use': [
+          {
+            'loader': 'eslint-loader',
+          },
+        ],
+      },
+
+      {
+        'test': /.jsx?$/,
+        'exclude': /node_modules/,
+        'use': [
+          {
+            'loader': 'babel-loader',
+            'options': {
+              'presets': [
+                'env',
+                'react',
+                'es2015',
+              ],
+            },
+          },
+        ],
       },
     ],
   },
