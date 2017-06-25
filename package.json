@@ -4,7 +4,9 @@
   "description": "A configuration boilerplate for a modern frontend SPA workflow.",
   "scripts": {
     "build:dev": "webpack --env=dev --progress --colors",
-    "build:dist": "webpack --env=prod --progress --colors"
+    "build:dist": "webpack --env=prod --progress --colors",
+    "lint": "eslint --max-warnings 0 src",
+    "precommit": "npm run lint"
   },
   "keywords": [
     "react",
@@ -17,8 +19,7 @@
     "babel",
     "eslint",
     "stylelint",
-    "Semantic UI",
-    "material"
+    "Semantic UI"
   ],
   "author": {
     "name": "Robert Matych",
@@ -38,6 +39,7 @@
     "eslint-plugin-optimize-regex": "^1.1.1",
     "eslint-plugin-react": "^7.1.0",
     "html-webpack-plugin": "^2.28.0",
+    "husky": "^0.14.1",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0",
     "webpack-merge": "^4.1.0"
