@@ -5,8 +5,8 @@
   "scripts": {
     "build:dev": "webpack --env=dev --progress --colors",
     "build:dist": "webpack --env=prod --progress --colors",
-    "lint": "eslint --max-warnings 0 src",
-    "precommit": "npm run lint"
+    "lint": "eslint src",
+    "precommit": "eslint --max-warnings 0 src"
   },
   "keywords": [
     "react",
