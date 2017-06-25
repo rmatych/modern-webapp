@@ -15,6 +15,12 @@ module.exports = {
     'json',
     'optimize-regex',
     'react',
+    'jsx-a11y',
+  ],
+
+  'extends': [
+    'plugin:jsx-a11y/recommended',
+    'plugin:import/errors',
   ],
 
   'rules': {
