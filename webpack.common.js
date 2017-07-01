@@ -9,7 +9,7 @@ module.exports = {
   'context': srcDir,
 
   'entry': {
-    'index': './index.js',
+    'index': './index.jsx',
   },
 
   'output': {

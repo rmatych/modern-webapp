@@ -5,6 +5,8 @@
   "scripts": {
     "build:dev": "webpack --env=dev --progress --colors",
     "build:dist": "webpack --env=prod --progress --colors",
+    "serve:dev": "webpack-dev-server --env=dev --progress --colors",
+    "serve:dist": "webpack-dev-server --env=prod --progress --colors",
     "lint": "eslint src",
     "precommit": "eslint --max-warnings 0 src"
   },
@@ -48,5 +50,9 @@
     "webpack": "3.0.0",
     "webpack-dev-server": "2.5.0",
     "webpack-merge": "4.1.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }

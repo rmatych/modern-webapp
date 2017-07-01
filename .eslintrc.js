@@ -9,6 +9,7 @@ module.exports = {
     'ecmaFeatures': {
       'jsx': true,
     },
+    'sourceType': 'module',
   },
 
   'plugins': [
@@ -54,7 +55,6 @@ module.exports = {
     /* Best practices: */
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
-    'class-methods-use-this': 'error',
     'complexity': 'warn',
     'curly': 'error',
     'default-case': 'error',
