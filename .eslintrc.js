@@ -134,7 +134,7 @@ module.exports = {
     'array-bracket-newline': [
       'error',
       {
-        'multiline': true,
+        'minItems': 1,
       },
     ],
     'array-bracket-spacing': 'error',
