@@ -35,4 +35,11 @@ module.exports = Merge(CommonConfig, {
   'plugins': [
     new ExtractTextPlugin('styles.css'),
   ],
+
+  'resolve': {
+    'alias': {
+      'react': 'preact-compat',
+      'react-dom': 'preact-compat',
+    },
+  },
 });
