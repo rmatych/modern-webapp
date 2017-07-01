@@ -4,9 +4,9 @@
   "description": "A configuration boilerplate for a modern frontend SPA workflow.",
   "scripts": {
     "build:dev": "webpack --env=dev --progress --colors",
-    "build:dist": "webpack --env=prod --progress --colors",
+    "build:dist": "webpack -p --env=prod --progress --colors",
     "serve:dev": "webpack-dev-server --env=dev --progress --colors",
-    "serve:dist": "webpack-dev-server --env=prod --progress --colors",
+    "serve:dist": "webpack-dev-server -p --env=prod --progress --colors",
     "lint": "eslint src",
     "precommit": "eslint --max-warnings 0 src"
   },
@@ -38,6 +38,9 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
+    "browserslist": "^2.1.5",
+    "css-loader": "^0.28.4",
+    "cssnano": "^3.10.0",
     "eslint": "4.1.0",
     "eslint-loader": "1.8.0",
     "eslint-plugin-import": "2.6.0",
@@ -47,6 +50,12 @@
     "eslint-plugin-react": "7.1.0",
     "html-webpack-plugin": "2.29.0",
     "husky": "0.14.1",
+    "postcss": "^6.0.4",
+    "postcss-css-reset": "^1.0.2",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "precss": "^2.0.0",
+    "style-loader": "^0.18.2",
     "webpack": "3.0.0",
     "webpack-dev-server": "2.5.0",
     "webpack-merge": "4.1.0"
@@ -54,5 +63,9 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
-  }
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions"
+  ]
 }

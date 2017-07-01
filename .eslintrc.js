@@ -177,7 +177,6 @@ module.exports = {
         'allowArrayStart': true,
       },
     ],
-    'max-len': 'error',
     'multiline-ternary': 'error',
     'new-cap': [
       'error',
@@ -205,7 +204,9 @@ module.exports = {
     'no-whitespace-before-property': 'error',
     'object-curly-newline': [
       'error',
-      'always',
+      {
+        'minProperties': 1,
+      },
     ],
     'object-curly-spacing': 'error',
     'object-property-newline': 'error',

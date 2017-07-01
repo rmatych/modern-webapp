@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './components/ModernWebApp/ModernWebApp.jsx';
+import ModernWebApp from './components/ModernWebApp/ModernWebApp.jsx';
+
+import style from './styles/global.css';
 
 class App extends React.Component {
   shouldComponentUpdate() {
     return true;
   }
   render() {
-    return <div>Hello!</div>;
+    return (
+      <div>
+        <div className={style.global}><ModernWebApp /></div>
+      </div>
+    );
   }
 }
 

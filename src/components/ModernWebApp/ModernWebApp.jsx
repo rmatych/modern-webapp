@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../Header/Header.jsx';
+import Summary from '../Summary/Summary.jsx';
 
 class ModernWebApp extends React.Component {
   shouldComponentUpdate() {
@@ -8,7 +9,10 @@ class ModernWebApp extends React.Component {
   }
   render() {
     return (
-      <Header />
+      <div>
+        <Header />
+        <Summary />
+      </div>
     );
   }
 }
