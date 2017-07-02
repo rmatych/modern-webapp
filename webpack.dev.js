@@ -1,6 +1,8 @@
 const path = require('path');
 const Merge = require('webpack-merge');
 
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+
 const CommonConfig = require('./webpack.common.js');
 
 module.exports = Merge(CommonConfig, {
@@ -38,7 +40,7 @@ module.exports = Merge(CommonConfig, {
           }, {
             'loader': 'css-loader',
             'options': {
-              'importLoaders': 1,
+              'importLoaders': 2,
               'modules': false,
             },
           }, {
@@ -60,4 +62,10 @@ module.exports = Merge(CommonConfig, {
       },
     ],
   },
+
+  'plugins': [
+    new HTMLWebpackPlugin({
+      'template': './index.html',
+    }),
+  ],
 });
