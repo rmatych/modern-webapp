@@ -18,7 +18,11 @@ module.exports = {
   },
 
   'resolve': {
-    'extensions': ['.js', '.jsx', '.json'],
+    'extensions': [
+      '.js',
+      '.jsx',
+      '.json',
+    ],
   },
 
   'module': {
@@ -47,6 +51,23 @@ module.exports = {
                 'es2015',
               ],
             },
+          },
+        ],
+      },
+
+      {
+        'test': /.(eot|svg|ttf|woff|woff2)$/,
+        'loader': 'file-loader',
+      },
+
+      {
+        'test': /.(jpe?g|png|gif|svg)$/i,
+        'use': [
+          {
+            'loader': 'file-loader',
+          },
+          {
+            'loader': 'image-webpack-loader',
           },
         ],
       },

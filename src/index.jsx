@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import ModernWebApp from './components/ModernWebApp/ModernWebApp.jsx';
 
-import style from './styles/global.css';
+import './styles/bulma.sass';
 
 class App extends React.Component {
   shouldComponentUpdate() {
@@ -12,7 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className={style.global}><ModernWebApp /></div>
+        <ModernWebApp />
       </div>
     );
   }

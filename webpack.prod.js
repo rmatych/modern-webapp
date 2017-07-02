@@ -1,3 +1,4 @@
+const Webpack = require('webpack');
 const Merge = require('webpack-merge');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -34,6 +35,17 @@ module.exports = Merge(CommonConfig, {
 
   'plugins': [
     new ExtractTextPlugin('styles.css'),
+    new Webpack.LoaderOptionsPlugin({
+      'minimize': true,
+      'debug': false,
+    }),
+    new Webpack.optimize.UglifyJsPlugin({
+      'compress': {
+        'unused': true,
+        'dead_code': true,
+        'warnings': false,
+      },
+    }),
   ],
 
   'resolve': {
