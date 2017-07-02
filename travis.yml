@@ -1,0 +1,4 @@
+language: node_js
+sudo: enabled
+dist: trusty
+script: npm run build:dev && npm run build:dist
