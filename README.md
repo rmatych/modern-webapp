@@ -22,7 +22,11 @@ So you want to build a modern SPA? Let's get to it.
     ~~~~
     git clone https://github.com/rmatych/modern-webapp.git your_project_name
     ~~~~
-4) Start developing!
+4) Run the setup script and fill out your project information:
+    ~~~~
+    node setup
+    ~~~~
+5) Start developing your SPA!
 
 (a more comprehensive guide is coming soon)
 
