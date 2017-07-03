@@ -29,7 +29,14 @@ module.exports = {
     'for-direction': 'error',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': 'error',
-    'no-console': 'warn',
+    'no-console': [
+      'warn',
+      {
+        'allow': [
+          'info',
+        ],
+      },
+    ],
     'no-constant-condition': 'error',
     'no-dupe-args': 'error',
     'no-dupe-keys': 'error',
@@ -140,7 +147,7 @@ module.exports = {
     'array-bracket-spacing': 'error',
     'brace-style': [
       'error',
-      'stroustrup',
+      '1tbs',
       {
         'allowSingleLine': false,
       },

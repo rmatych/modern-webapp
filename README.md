@@ -29,14 +29,15 @@ So you want to build a modern SPA? Let's get to it.
 ## What's inside?
 Get up and running instantly with:
 
-![devDependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)
 * [**Webpack** 3.0.0](https://webpack.js.org/)
 * [**Babel** 6.25.0](https://babeljs.io/)
 * [**ESLint** 4.1.1](http://eslint.org/)
 * [**Node-Sass** 4.5.3](https://github.com/sass/node-sass)
 * [**PostCSS** 6.0.4](http://postcss.org/)
 
-![devDependencies](https://david-dm.org/rmatych/modern-webapp/status.svg)
+![devDependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)
 * [**Bulma** 0.4.2](http://bulma.io/)
 * [**React** 15.6.1](https://facebook.github.io/react/)
 * [**Preact** 8.1.0](https://preactjs.com/)
+
+![devDependencies](https://david-dm.org/rmatych/modern-webapp/status.svg)
