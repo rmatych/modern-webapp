@@ -39,9 +39,9 @@ Get up and running instantly with:
 * [**Node-Sass** 4.5.3](https://github.com/sass/node-sass)
 * [**PostCSS** 6.0.4](http://postcss.org/)
 
-![devDependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)
+[![devDependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)](https://david-dm.org/rmatych/modern-webapp)
 * [**Bulma** 0.4.2](http://bulma.io/)
 * [**React** 15.6.1](https://facebook.github.io/react/)
 * [**Preact** 8.1.0](https://preactjs.com/)
 
-![devDependencies](https://david-dm.org/rmatych/modern-webapp/status.svg)
+[![devDependencies](https://david-dm.org/rmatych/modern-webapp/status.svg)](https://david-dm.org/rmatych/modern-webapp?type=dev)
