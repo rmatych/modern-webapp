@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "rimraf build",
     "lint": "eslint src",
-    "build:dev": "webpack --env=dev --progress --colors",
+    "build:dev": "npm run clean && webpack --env=dev --progress --colors",
     "build:dist": "npm run clean && webpack -p --env=prod --progress --colors",
     "serve:dev": "webpack-dev-server --env=dev --progress --colors",
     "serve:dist": "webpack-dev-server -p --env=prod --progress --colors",
@@ -55,7 +55,7 @@
     "husky": "0.14.2",
     "image-webpack-loader": "3.3.1",
     "node-sass": "4.5.3",
-    "postcss": "6.0.4",
+    "postcss": "6.0.5",
     "postcss-import": "10.0.0",
     "postcss-loader": "2.0.6",
     "precss": "2.0.0",
