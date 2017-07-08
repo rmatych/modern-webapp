@@ -26,12 +26,20 @@ So you want to build a modern SPA? Let's get to it.
     ~~~~
     node setup
     ~~~~
-5) Start developing your SPA!
-
-(a more comprehensive guide is coming soon)
+5) Start the Webpack Dev Server:
+    ~~~~
+    npm run serve:dev
+    ~~~~
+6) Navigate to http://localhost:8080/ to get the rundown!
 
 ## What's inside?
 Get up and running instantly with:
+
+* [**Bulma** 0.4.2](http://bulma.io/)
+* [**React** 15.6.1](https://facebook.github.io/react/)
+* [**Preact** 8.1.0](https://preactjs.com/)
+
+[![dependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)](https://david-dm.org/rmatych/modern-webapp)
 
 * [**Webpack** 3.0.0](https://webpack.js.org/)
 * [**Babel** 6.25.0](https://babeljs.io/)
@@ -40,8 +48,3 @@ Get up and running instantly with:
 * [**PostCSS** 6.0.4](http://postcss.org/)
 
 [![devDependencies](https://david-dm.org/rmatych/modern-webapp/status.svg)](https://david-dm.org/rmatych/modern-webapp?type=dev)
-* [**Bulma** 0.4.2](http://bulma.io/)
-* [**React** 15.6.1](https://facebook.github.io/react/)
-* [**Preact** 8.1.0](https://preactjs.com/)
-
-[![devDependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)](https://david-dm.org/rmatych/modern-webapp)
