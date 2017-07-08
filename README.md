@@ -35,16 +35,16 @@ So you want to build a modern SPA? Let's get to it.
 ## What's inside?
 Get up and running instantly with:
 
-* [**Bulma** 0.4.2](http://bulma.io/)
+* [**Bulma** 0.4.3](http://bulma.io/)
 * [**React** 15.6.1](https://facebook.github.io/react/)
 * [**Preact** 8.1.0](https://preactjs.com/)
 
 [![dependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)](https://david-dm.org/rmatych/modern-webapp)
 
-* [**Webpack** 3.0.0](https://webpack.js.org/)
+* [**Webpack** 3.1.0](https://webpack.js.org/)
 * [**Babel** 6.25.0](https://babeljs.io/)
 * [**ESLint** 4.1.1](http://eslint.org/)
 * [**Node-Sass** 4.5.3](https://github.com/sass/node-sass)
-* [**PostCSS** 6.0.4](http://postcss.org/)
+* [**PostCSS** 6.0.6](http://postcss.org/)
 
 [![devDependencies](https://david-dm.org/rmatych/modern-webapp/status.svg)](https://david-dm.org/rmatych/modern-webapp?type=dev)
