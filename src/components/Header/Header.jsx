@@ -1,12 +1,11 @@
 import React from 'react';
 
-import style from './Header.css';
-
 class Header extends React.PureComponent {
   render() {
     return (
       <div>
-        <h1 className={style.header}>Modern Webapp</h1>
+        <h1 className="title">Modern Webapp</h1>
+        <h2 className="subtitle">An opinionated frontend boilerplate</h2>
       </div>
     );
   }
