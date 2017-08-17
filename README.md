@@ -40,7 +40,7 @@ So you want to build a modern SPA? Let's get to it.
 Get up and running instantly with:
 
 * [**Bulma** 0.5.1](http://bulma.io/)
-* [**React** 15.6.1](https://facebook.github.io/react/)
+* [**React** 16.0.0](https://facebook.github.io/react/)
 * [**Preact** 8.2.1](https://preactjs.com/)
 
 [![dependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)](https://david-dm.org/rmatych/modern-webapp)
