@@ -7,8 +7,8 @@
     "lint": "eslint src",
     "build:dev": "npm run clean && webpack --env=dev --progress --colors",
     "build:dist": "npm run clean && webpack -p --env=prod --progress --colors",
-    "serve:dev": "webpack-dev-server --env=dev --progress --colors",
-    "serve:dist": "webpack-dev-server -p --env=prod --progress --colors",
+    "serve:dev": "webpack-dev-server --env=dev --progress --colors --hot --inline",
+    "serve:dist": "webpack-dev-server -p --env=prod --progress --colors --hot --inline --compress",
     "precommit": "eslint --max-warnings 0 src"
   },
   "keywords": [
