@@ -2,6 +2,6 @@ language: node_js
 sudo: enabled
 dist: trusty
 before_install:
-- nvm install 8.4.0
-- nvm use 8.4.0
+- nvm install 8.8.0
+- nvm use 8.8.0
 script: npm run build:dev && npm run build:dist
