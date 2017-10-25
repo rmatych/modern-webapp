@@ -7,8 +7,8 @@
     "lint": "eslint src",
     "build:dev": "npm run clean && webpack --env=dev --progress --colors",
     "build:dist": "npm run clean && webpack -p --env=prod --progress --colors",
-    "serve:dev": "webpack-dev-server --env=dev --progress --colors",
-    "serve:dist": "webpack-dev-server -p --env=prod --progress --colors",
+    "serve:dev": "webpack-dev-server --env=dev --progress --colors --hot --inline",
+    "serve:dist": "webpack-dev-server -p --env=prod --progress --colors --hot --inline --compress",
     "precommit": "eslint --max-warnings 0 src"
   },
   "keywords": [
@@ -35,22 +35,38 @@
   "license": "MIT",
   "devDependencies": {
     "babel-core": "6.26.0",
+<<<<<<< HEAD
     "babel-loader": "7.1.1",
     "babel-preset-env": "7.0.0-beta.3",
     "babel-preset-es2015": "7.0.0-beta.3",
     "babel-preset-react": "7.0.0-beta.3",
     "browserslist": "2.5.1",
     "css-loader": "0.28.7",
+=======
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "browserslist": "2.3.3",
+    "css-loader": "0.28.5",
+>>>>>>> 08eb22e86129d9de108ab03b53fadc1ad80afe8a
     "cssnano": "3.10.0",
     "eslint": "4.9.0",
     "eslint-loader": "1.9.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-json": "1.2.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
+<<<<<<< HEAD
     "eslint-plugin-optimize-regex": "1.1.2",
     "eslint-plugin-react": "7.4.0",
     "extract-text-webpack-plugin": "3.0.1",
     "file-loader": "1.1.5",
+=======
+    "eslint-plugin-optimize-regex": "1.1.4",
+    "eslint-plugin-react": "7.2.1",
+    "extract-text-webpack-plugin": "3.0.0",
+    "file-loader": "0.11.2",
+>>>>>>> 08eb22e86129d9de108ab03b53fadc1ad80afe8a
     "html-webpack-plugin": "2.30.1",
     "husky": "0.14.3",
     "image-webpack-loader": "3.4.2",
@@ -71,10 +87,17 @@
     "history": "4.7.2",
     "preact": "8.2.6",
     "preact-compat": "3.17.0",
+<<<<<<< HEAD
     "prop-types": "15.6.0",
     "react": "16.0.0",
     "react-dom": "16.0.0",
     "react-redux": "5.0.5",
+=======
+    "prop-types": "15.5.10",
+    "react": "16.0.0-beta.5",
+    "react-dom": "16.0.0-beta.5",
+    "react-redux": "5.0.6",
+>>>>>>> 08eb22e86129d9de108ab03b53fadc1ad80afe8a
     "react-router-redux": "5.0.0-alpha.6",
     "redux": "3.7.2"
   },
