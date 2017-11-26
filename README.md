@@ -16,7 +16,7 @@ Are you a
 ## Getting started
 So you want to build a modern SPA? Let's get to it.
 
-1) Download and install [Node 8.4.0+](https://nodejs.org/en/download/current/)
+1) Download and install [Node 8.9.1+](https://nodejs.org/en/download/current/)
 2) In your favorite shell, navigate to the directory where you want your project to live
 3) Clone this repository:
     ~~~~
@@ -39,16 +39,16 @@ So you want to build a modern SPA? Let's get to it.
 ## What's inside?
 Get up and running instantly with:
 
-* [**Bulma** 0.5.1](http://bulma.io/)
-* [**React** 16.0.0](https://facebook.github.io/react/)
-* [**Preact** 8.2.1](https://preactjs.com/)
+* [**Bulma** 0.6.1](http://bulma.io/)
+* [**React** 16.1.1](https://facebook.github.io/react/)
+* [**Preact** 8.2.6](https://preactjs.com/)
 
-[![dependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)](https://david-dm.org/rmatych/modern-webapp)
+[![dependencies](https://david-dm.org/rmatych/modern-webapp/status.svg)](https://david-dm.org/rmatych/modern-webapp)
 
-* [**Webpack** 3.5.5](https://webpack.js.org/)
+* [**Webpack** 3.8.1](https://webpack.js.org/)
 * [**Babel** 6.26.0](https://babeljs.io/)
-* [**ESLint** 4.4.1](http://eslint.org/)
-* [**Node-Sass** 4.5.3](https://github.com/sass/node-sass)
-* [**PostCSS** 6.0.9](http://postcss.org/)
+* [**ESLint** 4.12.0](http://eslint.org/)
+* [**Node-Sass** 4.7.2](https://github.com/sass/node-sass)
+* [**PostCSS** 6.0.14](http://postcss.org/)
 
-[![devDependencies](https://david-dm.org/rmatych/modern-webapp/status.svg)](https://david-dm.org/rmatych/modern-webapp?type=dev)
+[![devDependencies](https://david-dm.org/rmatych/modern-webapp/dev-status.svg)](https://david-dm.org/rmatych/modern-webapp?type=dev)
